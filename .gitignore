@@ -30,10 +30,12 @@ logs/
 *.tmp
 *.temp
 
-# Large/local raw datasets
+# Local and generated datasets
 data/raw/*
 data/external/*
+data/processed/*
 
 # Keep directory structure in Git
 !data/raw/.gitkeep
 !data/external/.gitkeep
+!data/processed/.gitkeep
